@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="./stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Home</title>
+    <style>
+        .cls-1 {
+            fill: none;
+            stroke-width: 3px;
+        }
+
+        .cls-1,
+        .cls-2 {
+            stroke: #be1e2d;
+        }
+
+        .cls-1,
+        .cls-2,
+        .cls-3 {
+            stroke-miterlimit: 10;
+        }
+
+        .cls-2 {
+            fill: #726658;
+        }
+
+        .cls-2,
+        .cls-3 {
+            stroke-width: .75px;
+        }
+
+        .cls-3 {
+            fill: #594a42;
+            stroke: #231f20;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-brand" href="index.html">
+                <div id="logo"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.29 133.96">
+                        <path class="cls-1"
+                            d="m51.44,1.19C5.79,36.24-6.72,80.45,6.44,97.19c11.07,14.09,43.83,13.23,77-1" />
+                        <path class="cls-1"
+                            d="m97.1,29.41c-45.65,35.05-58.16,79.26-45,96,11.07,14.09,56.17,5.01,89.34-9.22" />
+                        <polygon class="cls-2" points="146.11 105.72 142 115.53 150.25 108.81 146.11 105.72" />
+                        <rect class="cls-3" x="171.27" y="28.83" width="6.03" height="87.12"
+                            transform="translate(77.97 -89.9) rotate(36.76)" />
+                    </svg>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html #about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html #portfolio">Portfolio</a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href='./index.html #contact'">Contact</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End nav -->
+      <br><br><br><br><br><br><br><br>
+      <div id="adobe">
+          <p id="label">Adobe</p>
+          <div class="h_line"></div>
+          <div class="row align-items-center"id="portcol">
+              <div class="col">
+                    <div class="code" id="brandlogo">
+                        <img src="./CodeImages/ExerciseTracker.png" alt="Exercise Tracker" style="width:700px">
+                    </div>
+              </div>
+              <div class="col">
+                  <p style="font-size: 25px;">Exercise Tracker</p>
+                  <p>Our task was to create an Exercise tracker using plugins we learnt in class.
+                    The logo was made using illustrator with blocks to shape a dumbbell, while also having ET in the center,
+                    which stands for Exercise Tracker. The colourscheme used is pastel/light, which is easier to look at.</p>
+                  <p>First section: User can enter their username, and when they click on "Let's Go!", they are directed to
+                    the second section. User can click on the "What is Exercise Tracker?" to toggle the definition.<br><br>
+                    Second section: The entered username on the first section will now be displayed at the top right, and hovering
+                    over shows a tippy to click if user wishes to change username. Clicking it will bring the user back to the first
+                    section. Below that are the levels the user can click to complete and unlock the other levels.<br><br>
+                    Third section: When the user clicks on the level, they need to enter the number of km, and when all 7 days
+                    are filled, they can click on "create data" and a chart will be created on the right. If the requirements are met,
+                    "Next level" button will be unlocked and clicking it brings the user back to the second section to complete the next
+                    challenge.<br>
+                  </p>
+                  <a href="https://ccqx2.github.io/C219-CAG/" target="_blank" id="link">Click to try out the Exercise Tracker</a><br>
+                  <a href="./CodeImages/ExerciseTracker Hi-Fi.pdf" target="_blank" id="link">View High Fidelity Wireframe</a><br><br>
+                  <p>Application used: Visual Studio Code<br>
+                    Plugins used: fullPage.js, anime.js, Tippy.js, Chart.js
+                </p>
+              </div>
+          </div>
+</body>
+</html>
