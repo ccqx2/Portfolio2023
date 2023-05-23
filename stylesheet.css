@@ -1,5 +1,5 @@
 body{
-    background-color: #dcf1f7;
+    background-image: linear-gradient(to bottom right, #dcf1f7, #72afc2);
 }
 #logo {
     width: 50px;
@@ -15,6 +15,7 @@ body{
     font-size: 40px;
     text-align: center;
     color:#456a75;
+    text-shadow: 2px 2px 5px red;
     margin-top: auto;
     padding-top: 100px;
 }
@@ -33,10 +34,15 @@ body{
     width: 290px;
     height: 354px;
 }
+#aboutpic:hover{
+    transition:0.2s;
+    transform:scale(1.1);
+}
 #label{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     color:#456a75;
+    text-shadow: 2px 2px 5px red;
     text-align: center;
     font-size: 50px;
 }
@@ -70,6 +76,9 @@ body{
     width:285px;
     height:250px;
 }
+.card:hover{
+    box-shadow: 2px 2px 5px red;
+}
 #contact{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -101,6 +110,7 @@ body{
     background-color: aliceblue;
     border-radius: 1px;
     border-color: #72afc2;
+    flex: auto;
 }
 #sketches img{
     width:500px;
