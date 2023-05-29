@@ -89,7 +89,7 @@
       <!-- End nav -->
       <br><br><br><br><br><br><br><br>
       <div id="adobe">
-          <p id="label">Adobe</p>
+          <p id="label">Front-end Development</p>
           <div class="h_line"></div>
           <div class="row align-items-center"id="portcol">
               <div class="col">
@@ -119,5 +119,33 @@
                 </p>
               </div>
           </div>
+
+          <br><br><br><br><br><br><br><br>
+
+        <div class="footer" style="background-color:blanchedalmond;padding:5px;">
+            <hr>
+            <p style="text-align: center;font-size: 15px;">Copyright © 2023 | Celest's Portfolio Website</p>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+    <!-- Script links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+   <!-- Scripts -->
+   <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+   </script>
 </body>
 </html>
